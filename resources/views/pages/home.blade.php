@@ -2,7 +2,7 @@
 @section('content')
 <div class="wrapper-bg-video">
 				<video poster="images/video_slider.jpg" playsinline autoplay muted loop>
-					<source src="http://physcode.com/video/330149744.mp4" type="video/mp4">
+					<source src="{{ config('app.url') }}intro.mp4" type="video/mp4">
 				</video>
 				<div class="content-slider">
 					<p>Find your special tour today </p>
